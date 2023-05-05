@@ -12,7 +12,7 @@ public class Pan {
 	private int id;
 	private String fatherName;
 	private String panNum;
-	@OneToOne(cascade = CascadeType.PERSIST)
+	@OneToOne(cascade = CascadeType.ALL)
 	
 	@JoinColumn
 	private Person person;
