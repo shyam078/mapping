@@ -19,8 +19,8 @@ public class InsertPerson {
 		person.setName("shyam");
 		
 		Pan pan=new Pan();
-		pan.setId(2);
-		pan.setPanNum("CAYPC6150R");
+		pan.setId(1);
+		pan.setPanNum("CAYPC1234R");
 		pan.setFatherName("srinu");
 		pan.setPerosn(person);
 		
